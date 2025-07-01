@@ -29,11 +29,11 @@ body {
   width: 18rem;
   outline: 1px solid var(--gray-950);
   border-radius: 1rem;
-  box-shadow: 0.4rem 0.4rem var(--gray-950);
+  box-shadow: 0.5rem 0.5rem var(--gray-950);
 }
 
 .container {
-  padding: 1rem;
+  padding: 1.2rem;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
