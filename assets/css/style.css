@@ -19,14 +19,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: "Figtree";
+  font-family: "Figtree", sans-serif;
   font-size: 0.9rem;
   color: var(--gray-500);
 }
 
 .card {
   background-color: var(--white);
-  width: 20rem;
+  width: 18rem;
   outline: 1px solid var(--gray-950);
   border-radius: 1rem;
   box-shadow: 0.4rem 0.4rem var(--gray-950);
@@ -36,7 +36,7 @@ body {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1.2rem;
 }
 
 .top-img-box img {
@@ -69,7 +69,7 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin: 0.6rem 0;
+  margin-bottom: 0.6rem;
 }
 
 .profile img {
@@ -80,4 +80,14 @@ a:hover {
 .profile h4 {
   color: var(--gray-950);
   font-weight: 800;
+}
+
+@media (min-width: 426px) {
+  .card {
+    width: 25rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
 }
