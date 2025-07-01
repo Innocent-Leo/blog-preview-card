@@ -26,7 +26,7 @@ body {
 
 .card {
   background-color: var(--white);
-  width: 18rem;
+  width: 20rem;
   outline: 1px solid var(--gray-950);
   border-radius: 1rem;
   box-shadow: 0.4rem 0.4rem var(--gray-950);
