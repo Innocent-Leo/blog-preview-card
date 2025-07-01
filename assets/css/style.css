@@ -83,9 +83,15 @@ a:hover {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.8rem;
   text-align: center;
 }
+
 .attribution a {
+  font-size: 1rem;
   color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  color: var(--gray-500);
 }
