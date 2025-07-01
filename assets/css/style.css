@@ -14,6 +14,8 @@
 body {
   background-color: var(--yellow);
   display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -24,9 +26,10 @@ body {
 
 .card {
   background-color: var(--white);
-  width: 250px;
+  width: 18rem;
   outline: 1px solid var(--gray-950);
   border-radius: 1rem;
+  box-shadow: 0.4rem 0.4rem var(--gray-950);
 }
 
 .container {
@@ -42,11 +45,6 @@ body {
   border-radius: 0.5rem;
 }
 
-/* .learn-box {
-  background-color: var(--yellow);
-  display: inline-block;
-} */
-
 .learn-box p {
   background-color: var(--yellow);
   display: inline-block;
@@ -59,13 +57,19 @@ body {
 a {
   text-decoration: none;
   color: var(--gray-950);
+  font-size: 1.2rem;
   font-weight: 800;
+}
+
+a:hover {
+  color: var(--yellow);
 }
 
 .profile {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  margin: 0.6rem 0;
 }
 
 .profile img {
@@ -76,4 +80,12 @@ a {
 .profile h4 {
   color: var(--gray-950);
   font-weight: 800;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
